@@ -1,0 +1,181 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/smallcar.jfif" rel="icon" type="image/x-icon" />
+		<title>Aston Martin Superfan</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="titlerow lightblue" id="car-model" onclick="changeBackground(this)">
+			<h1> Aston Martin Vulcan </h1>
+		</div>
+		<div class="titlerow lightblue hide" id="car-modeldb10" onclick="changeBackground(this)">
+			<h1> Aston Martin DB10 </h1>
+		</div>
+		<div class="titlerow lightblue hide" id="car-modeldb11" onclick="changeBackground(this)">
+			<h1> Aston Martin DB11 </h1>
+		</div>
+		<div class="titlerow lightblue hide" id="car-modeldbz" onclick="changeBackground(this)">
+			<h1> Aston Martin DBZ </h1>
+		</div>
+		<div class="titlerow lightblue hide" id="car-modeldblagonda" onclick="changeBackground(this)">
+			<h1> Aston Martin Lagonda </h1>
+		</div>
+		<div class="titlerow lightblue hide" id="car-modelvanquish" onclick="changeBackground(this)">
+			<h1> Aston Martin Vanquish </h1>
+		</div>
+		<div class="titlerow lightblue hide" id="car-modelvantage" onclick="changeBackground(this)">
+			<h1> Aston Martin Vantage </h1>
+		</div>
+		
+		<div class="content gray">
+			<div class="imgblock yellow">
+				<img src="images/vulcan.jpg" class="img zoom" onclick="displayImage(this)" name="canvas">
+			</div>
+			<div class="disccolumn lightblue">
+				<div class="discbox lightblue" onclick="onClick(this)" id="disc1" name="disc1">
+					<h1> Specs</h1>
+					<ul>
+						<li>7.0 V12 Engine</li>
+						<li>820 HorsePower
+							<ul>
+							  <li>831 PS</li>
+							  <li>575 LB-FT</li>
+							</ul>
+						  </li>
+						  <li>1.48812 Tons</li>
+						</ul>
+				</div>
+				<div class="discbox lightblue hide" onclick="onClick(this)" id="discdb10" name="discdb10">
+					<h1> Specs</h1>
+					<ul>
+						<li>4.7 L V8 Engine</li>
+						<li>430 HorsePower
+							<ul>
+							  <li>436 PS</li>
+							  <li>310 Km/H</li>
+							</ul>
+						  </li>
+						  <li>1.709593 Tons</li>
+						</ul>
+				</div>
+				<div class="discbox lightblue hide" onclick="onClick(this)" id="discdb11" name="discdb11">
+					<h1> Specs</h1>
+					<ul>
+						<li>5.2 L Twinturbo V12 Engine</li>
+						<li>503 HorsePower
+							<ul>
+							  <li>436 PS</li>
+							  <li>498 Km/H</li>
+							</ul>
+						  </li>
+						  <li>2.06593 Tons</li>
+						</ul>
+				</div>
+				<div class="discbox lightblue hide" onclick="onClick(this)" id="discdbz" name="discdbz">
+					<h1> Specs</h1>
+					<ul>
+						<li>4.7 L V8 Engine</li>
+						<li>715 HorsePower
+							<ul>
+							  <li>436 PS</li>
+							  <li>370 Km/H</li>
+							</ul>
+						  </li>
+						  <li>1.693 Tons</li>
+						</ul>
+				</div>
+				<div class="discbox lightblue hide" onclick="onClick(this)" id="disclagonda" name="disclagonda">
+					<h1> Specs</h1>
+					<ul>
+						<li>4.7 L V8 Engine</li>
+						<li>unkown
+							<ul>
+							  <li>unkown</li>
+							  <li>unkown</li>
+							</ul>
+						  </li>
+						  <li>2.109593 Tons</li>
+						</ul>
+				</div>
+				<div class="discbox lightblue hide" onclick="onClick(this)" id="discvantage" name="discvantage">
+					<h1> Specs</h1>
+					<ul>
+						<li>4 L V8 Engine</li>
+						<li>503 HorsePower
+							<ul>
+							  <li>436 PS</li>
+							  <li>313 Km/H</li>
+							</ul>
+						  </li>
+						  <li>1.589 Tons</li>
+						</ul>
+				</div>
+				<div class="discbox lightblue" onclick="onClick(this)" id="hist1">
+					<h1> History</h1>
+						<ul>
+							<li>2015 Release Date</li>
+							<li>Revealed at Geneva Motor Show</li>
+							<li>Created By: Marek Reichman </li>
+						</ul>
+				</div>
+				<div class="discbox lightblue hide" onclick="onClick(this)" id="histdb10">
+					<h1> History</h1>
+						<ul>
+							<li>2015 Release Date</li>
+							<li>Revealed for James Bond Spectre</li>
+							<li>Created By: Sam Holgate </li>
+						</ul>
+				</div>
+				<div class="discbox lightblue hide" onclick="onClick(this)" id="histdb11">
+					<h1> History</h1>
+						<ul>
+							<li>2016 Release Date</li>
+							<li>Revealed at Geneva Motor Show</li>
+							<li>Created By: Marek Reichman </li>
+						</ul>
+				</div>
+				<div class="discbox lightblue hide" onclick="onClick(this)" id="histdbz">
+					<h1> History</h1>
+						<ul>
+							<li>2015 Release Date</li>
+							<li>Revealed at Geneva Motor Show</li>
+							<li>Created By: Marek Reichman </li>
+						</ul>
+				</div>
+				<div class="discbox lightblue hide" onclick="onClick(this)" id="histlagonda">
+					<h1> History</h1>
+						<ul>
+							<li>2020 Release Date</li>
+							<li>Revealed at Geneva Motor Show</li>
+							<li>Created By: Andy Palmer </li>
+						</ul>
+				</div>
+				<div class="discbox lightblue hide" onclick="onClick(this)" id="histvantage">
+					<h1> History</h1>
+						<ul>
+							<li>2019 Release Date</li>
+							<li>Revealed at Geneva Motor Show</li>
+							<li>Created By: Marek Reichman </li>
+						</ul>
+				</div>
+				<div class="discbox lightblue hide" onclick="onClick(this)" id="histvanquish">
+					<h1> History</h1>
+						<ul>
+							<li>2017 Release Date</li>
+							<li>Revealed at Geneva Motor Show</li>
+							<li>Created By: Marek Reichman </li>
+						</ul>
+				</div>
+			</div>
+		</div>
+		
+		<audio src="sounds/rev.mp3" type="audio/mp3" id="you-win"></audio>
+		<script src="script.js"></script>
+		
+	</body>
+	
+</html>
